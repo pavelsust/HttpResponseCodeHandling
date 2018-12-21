@@ -11,7 +11,6 @@ public class HttpResponseCode {
     public boolean isShowStatus;
 
     public HttpResponseCode(){
-
     }
 
     public HttpResponseCode(Context context , boolean isShowStatus){
@@ -21,13 +20,10 @@ public class HttpResponseCode {
 
 
     public boolean checkResponse(int responseCode){
-
         boolean returnResponse = false;
-
         if (responseCode == 200){
             returnResponse = true;
         }
-
 
         else if(responseCode == 100 ){
             returnResponse = false;
@@ -49,43 +45,35 @@ public class HttpResponseCode {
             showStatus("Server resources are created");
         }
 
-
         else if(responseCode == 202  ){
             returnResponse = false;
             showStatus("Server request accepted");
         }
-
-
 
         else if(responseCode == 203  ){
             returnResponse = false;
             showStatus("Server Non-Authoritative Information ");
         }
 
-
         else if(responseCode == 204  ){
             returnResponse = false;
             showStatus("The server successfully processed the request and is not returning any content.");
         }
-
 
         else if(responseCode == 205  ){
             returnResponse = false;
             showStatus("Server is no returning any content");
         }
 
-
         else if(responseCode == 206  ){
             returnResponse = false;
             showStatus("The server is delivering only part of the resource ");
         }
 
-
         else if(responseCode == 207  ){
             returnResponse = false;
             showStatus(" XML message and can contain a number");
         }
-
 
         else if(responseCode == 208  ){
             returnResponse = false;

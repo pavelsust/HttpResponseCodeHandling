@@ -31,12 +31,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (!httpResponseCode.checkResponse(530)){
+                if (!httpResponseCode.checkResponse(201)){
+
                     /**
                      *
                      * do what ever you want if status code is not 200 then automaticaly status will show through a toast
                      *
                      */
+
                 }
             }
         });
