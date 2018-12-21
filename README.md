@@ -53,6 +53,11 @@ Here if you want to show Toast declear it `true` or make it `false` for disable 
 
 ```java
 
+                /**
+                 * if response code is 200 then your code will work
+                 * if response code is not 200 this will show you a Toast with server error
+                 */
+
   if (httpResponseCode.checkResponse(response.code())){
                 
 		// do what ever you want
