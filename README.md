@@ -33,3 +33,18 @@ dependencies {
 	implementation 'com.github.paveltech:HttpResponseCodeHandling:1.0.0'
 }
 ```
+
+##Configure
+```java
+
+  HttpResponseCode httpResponseCode;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+	
+        httpResponseCode = new HttpResponseCode(getApplicationContext() , true);
+
+    }
+
+```
