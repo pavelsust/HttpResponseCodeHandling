@@ -5,5 +5,5 @@
 
 
 <div align="center">
-	<img src="https://raw.githubusercontent.com/paveltech/HttpResponseCodeHandling/master/status-code.png" width="128">
+	<img src="https://raw.githubusercontent.com/paveltech/HttpResponseCodeHandling/master/status-code.png" width="428">
 </div>
