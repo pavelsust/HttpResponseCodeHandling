@@ -59,3 +59,8 @@ Here if you want to show Toast declear it `true` or make it `false` for disable 
    }
 
 ```
+
+
+
+For custom Toast i used this open sourse library.
+https://github.com/GrenderG/Toasty
