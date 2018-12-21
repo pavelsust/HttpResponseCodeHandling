@@ -32,7 +32,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (!httpResponseCode.checkResponse(200)){
-                    // do what ever you want
+                    /**
+                     *
+                     * do what ever you want if status code is not 200 then automaticaly status will show through a toast
+                     *
+                     */
                 }
             }
         });
