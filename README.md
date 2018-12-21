@@ -30,7 +30,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.paveltech:HttpResponseCodeHandling:1.0.0'
+	implementation 'com.github.paveltech:HttpResponseCodeHandling:1.0.1'
 }
 ```
 
@@ -46,5 +46,16 @@ dependencies {
         httpResponseCode = new HttpResponseCode(getApplicationContext() , true);
 
     }
+
+```
+
+Here if you want to show Toast declear it `true` or make it `false` for disable it. If response code is `200`. This will never show a Toast and your code will working fine.
+
+```java
+
+  if (httpResponseCode.checkResponse(response.code())){
+                
+		// do what ever you want
+   }
 
 ```
