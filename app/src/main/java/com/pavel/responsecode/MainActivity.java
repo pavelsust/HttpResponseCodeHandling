@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (!httpResponseCode.checkResponse(100)){
+                if (!httpResponseCode.checkResponse(200)){
                     // do what ever you want
                 }
             }
